@@ -1,6 +1,6 @@
-# LaTeX Project
+# SOFTWARE REQUIREMENTS SPECIFICATION 
+BeatFinder: Intelligent Music Discovery & Recommendation Platform 
 
-This repository contains the LaTeX source converted from `input.docx`.
 
 ## Repository Structure
 
@@ -8,8 +8,8 @@ This repository contains the LaTeX source converted from `input.docx`.
 .
 ├── main.tex          # Main LaTeX source file
 ├── figures/          # All embedded images
-│   ├── image1.png
-│   ├── image2.png
+│   ├── figure1.png
+│   ├── figure2.png
 │   └── ...
 └── README.md
 ```
