@@ -1,5 +1,5 @@
 # SOFTWARE REQUIREMENTS SPECIFICATION 
-BeatFinder: Intelligent Music Discovery & Recommendation Platform 
+# BeatFinder: Intelligent Music Discovery & Recommendation Platform 
 
 
 ## Repository Structure
@@ -16,7 +16,14 @@ BeatFinder: Intelligent Music Discovery & Recommendation Platform
 
 ## How to Compile
 
-### Option 1 — Command Line (recommended)
+### Option 1 — Overleaf (online, no install needed) (Recommended)
+
+1. Go to [overleaf.com](https://www.overleaf.com) and create a free account.
+2. Click **New Project → Upload Project**.
+3. Zip this entire folder (including `figures/`) and upload the zip.
+4. Overleaf will auto-detect `main.tex` and compile it to pdf — click **Recompile**.
+
+### Option 2 — Command Line
 
 Make sure you have a LaTeX distribution installed:
 - **Windows**: [MiKTeX](https://miktex.org/) or [TeX Live](https://tug.org/texlive/)
@@ -32,12 +39,6 @@ pdflatex main.tex   # Run a second time to resolve cross-references
 
 This produces `main.pdf` in the same folder.
 
-### Option 2 — Overleaf (online, no install needed)
-
-1. Go to [overleaf.com](https://www.overleaf.com) and create a free account.
-2. Click **New Project → Upload Project**.
-3. Zip this entire folder (including `figures/`) and upload the zip.
-4. Overleaf will auto-detect `main.tex` and compile it — click **Recompile**.
 
 ### Option 3 — VS Code
 
@@ -45,18 +46,6 @@ This produces `main.pdf` in the same folder.
 2. Open the project folder in VS Code.
 3. Open `main.tex` and press `Ctrl+Alt+B` (or `Cmd+Alt+B` on Mac) to build.
 
-## Required LaTeX Packages
-
-All packages used are included in standard TeX Live / MiKTeX distributions:
-
-| Package | Purpose |
-|---------|---------|
-| `geometry` | Page margins |
-| `graphicx` | Images |
-| `longtable`, `booktabs`, `array` | Tables |
-| `hyperref`, `xurl` | Clickable links |
-| `xcolor` | Colours |
-| `microtype` | Improved typography |
 
 ## Notes
 
